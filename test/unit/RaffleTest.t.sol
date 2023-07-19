@@ -142,6 +142,10 @@ contract RaffleTest is Test {
         Raffle.RaffleState rState = raffle.getRaffleState();
         assert(uint256(requestId) > 0);
         assert(uint256(rState) == 1);
-
     }
+
+    // function testFulfillRandomWordsCanOnlyBePerformedAfterUpkeep(uint256 randomRequestId) raffleEnteredAndTimePassed public {
+    //     vm.expectRevert("nonexistent request");
+    //     VRFCoordinatorV2Mock(vrfCoordinator).fulfullRandomWords(randomRequestId, address(raffle));
+    // }
 }
