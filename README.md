@@ -1,4 +1,4 @@
-# Decentralized Provably Random Smart Contract Lottery
+# Provably Random Smart Contract Lottery
 
 ## Description
 
